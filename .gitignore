@@ -6,6 +6,7 @@
 *.log
 *.sdf
 *.tlog
+*.opensdf
 
 /*.suo
 /*.sdf
@@ -14,3 +15,5 @@ Debug/*
 Release/*
 bin/
 bin-debug/
+cglory/Debug/*
+cglory/Release/*

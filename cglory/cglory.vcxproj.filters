@@ -657,7 +657,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="BaseCode.rc">
+    <ResourceCompile Include="cglory.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
