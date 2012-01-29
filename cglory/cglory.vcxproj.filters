@@ -108,22 +108,22 @@
     <None Include="sprites.xml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\tiles.xml">
+    <None Include="..\..\cglory\cglory\tiles.xml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\info.xml">
+    <None Include="..\..\cglory\cglory\info.xml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\fog.png">
+    <None Include="..\..\cglory\cglory\fog.png">
       <Filter>Resource Files\TileOverlays</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\range.png">
+    <None Include="..\..\cglory\cglory\range.png">
       <Filter>Resource Files\TileOverlays</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\selected.png">
+    <None Include="..\..\cglory\cglory\selected.png">
       <Filter>Resource Files\TileOverlays</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\available.png">
+    <None Include="..\..\cglory\cglory\available.png">
       <Filter>Resource Files\TileOverlays</Filter>
     </None>
     <None Include="ReadMe.txt">
@@ -135,19 +135,19 @@
     <None Include="Controls.txt">
       <Filter>TextFiles</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\DepthStandards.txt">
+    <None Include="..\..\cglory\cglory\DepthStandards.txt">
       <Filter>TextFiles</Filter>
     </None>
     <None Include="HowToEditConflicts.txt">
       <Filter>TextFiles</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\electronic_stapler.wav">
+    <None Include="..\..\cglory\cglory\electronic_stapler.wav">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\SettingUpTODOTasks.txt">
+    <None Include="..\..\cglory\cglory\SettingUpTODOTasks.txt">
       <Filter>TextFiles</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\map.xml">
+    <None Include="..\..\cglory\cglory\map.xml">
       <Filter>Resource Files\Maps</Filter>
     </None>
     <None Include="BaseCode.ico">
@@ -156,13 +156,13 @@
     <None Include="bgSheet.gif">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\bgSheet2.gif">
+    <None Include="..\..\cglory\cglory\bgSheet2.gif">
       <Filter>Resource Files\graphics</Filter>
     </None>
     <None Include="bgTile.bmp">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\BigShockTrooper.png">
+    <None Include="..\..\cglory\cglory\BigShockTrooper.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
     <None Include="bitmap1.bmp">
@@ -177,16 +177,16 @@
     <None Include="cursor.cur">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\cursorAnimation.png">
+    <None Include="..\..\cglory\cglory\cursorAnimation.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\menuCursor.png">
+    <None Include="..\..\cglory\cglory\menuCursor.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
     <None Include="small.ico">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\testbuilding.png">
+    <None Include="..\..\cglory\cglory\testbuilding.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
     <None Include="tank.bmp">
@@ -195,46 +195,46 @@
     <None Include="blood.xml">
       <Filter>Resource Files\Maps</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\invalid.xml">
+    <None Include="..\..\cglory\cglory\invalid.xml">
       <Filter>Resource Files\Maps</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\blackpixel.bmp">
+    <None Include="..\..\cglory\cglory\blackpixel.bmp">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\path.png">
+    <None Include="..\..\cglory\cglory\path.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\ambush.png">
+    <None Include="..\..\cglory\cglory\ambush.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\peaisland.xml">
+    <None Include="..\..\cglory\cglory\peaisland.xml">
       <Filter>Resource Files\Maps</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\factory.png">
+    <None Include="..\..\cglory\cglory\factory.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\headquarters.png">
+    <None Include="..\..\cglory\cglory\headquarters.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\water.png">
+    <None Include="..\..\cglory\cglory\water.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\artillery.png">
+    <None Include="..\..\cglory\cglory\artillery.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\glorytab.png">
+    <None Include="..\..\cglory\cglory\glorytab.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\infotab.png">
+    <None Include="..\..\cglory\cglory\infotab.png">
       <Filter>Resource Files\graphics</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\maplist.xml">
+    <None Include="..\..\cglory\cglory\maplist.xml">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\tinyisland.xml">
+    <None Include="..\..\cglory\cglory\tinyisland.xml">
       <Filter>Resource Files\Maps</Filter>
     </None>
-    <None Include="..\..\Commander%27sGlory\BaseCode\loopy.xml">
+    <None Include="..\..\cglory\cglory\loopy.xml">
       <Filter>Resource Files\Maps</Filter>
     </None>
   </ItemGroup>
@@ -248,10 +248,10 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\KeyState.h">
+    <ClInclude Include="..\..\cglory\cglory\KeyState.h">
       <Filter>Header Files\Input</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\InputManager.h">
+    <ClInclude Include="..\..\cglory\cglory\InputManager.h">
       <Filter>Header Files\Input</Filter>
     </ClInclude>
     <ClInclude Include="WindowsInputMapping.h">
@@ -266,43 +266,43 @@
     <ClInclude Include="tinystr.h">
       <Filter>Header Files\xml</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\InformationStorage.h">
+    <ClInclude Include="..\..\cglory\cglory\InformationStorage.h">
       <Filter>Header Files\Information</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\TerrainInfo.h">
+    <ClInclude Include="..\..\cglory\cglory\TerrainInfo.h">
       <Filter>Header Files\Information</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\BuildingInfo.h">
+    <ClInclude Include="..\..\cglory\cglory\BuildingInfo.h">
       <Filter>Header Files\Information</Filter>
     </ClInclude>
     <ClInclude Include="UnitInfo.h">
       <Filter>Header Files\Information</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Building.h">
+    <ClInclude Include="..\..\cglory\cglory\Building.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Cell.h">
+    <ClInclude Include="..\..\cglory\cglory\Cell.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\PlayManager.h">
+    <ClInclude Include="..\..\cglory\cglory\PlayManager.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Map.h">
+    <ClInclude Include="..\..\cglory\cglory\Map.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Terrain.h">
+    <ClInclude Include="..\..\cglory\cglory\Terrain.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Player.h">
+    <ClInclude Include="..\..\cglory\cglory\Player.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\JasonTest.h">
+    <ClInclude Include="..\..\cglory\cglory\JasonTest.h">
       <Filter>Header Files\Test</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CellPathNode.h">
+    <ClInclude Include="..\..\cglory\cglory\CellPathNode.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\TraversalCostHelper.h">
+    <ClInclude Include="..\..\cglory\cglory\TraversalCostHelper.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
     <ClInclude Include="Utility.h">
@@ -326,142 +326,142 @@
     <ClInclude Include="SpriteInfo.h">
       <Filter>Header Files\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Unit.h">
+    <ClInclude Include="..\..\cglory\cglory\Unit.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\GameObject.h">
+    <ClInclude Include="..\..\cglory\cglory\GameObject.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\PlayerOwned.h">
+    <ClInclude Include="..\..\cglory\cglory\PlayerOwned.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod.h">
+    <ClInclude Include="..\..\cglory\cglory\fmod.h">
       <Filter>Header Files\Sound</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod.hpp">
+    <ClInclude Include="..\..\cglory\cglory\fmod.hpp">
       <Filter>Header Files\Sound</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_codec.h">
+    <ClInclude Include="..\..\cglory\cglory\fmod_codec.h">
       <Filter>Header Files\Sound</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_dsp.h">
+    <ClInclude Include="..\..\cglory\cglory\fmod_dsp.h">
       <Filter>Header Files\Sound</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_errors.h">
+    <ClInclude Include="..\..\cglory\cglory\fmod_errors.h">
       <Filter>Header Files\Sound</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_memoryinfo.h">
+    <ClInclude Include="..\..\cglory\cglory\fmod_memoryinfo.h">
       <Filter>Header Files\Sound</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_output.h">
+    <ClInclude Include="..\..\cglory\cglory\fmod_output.h">
       <Filter>Header Files\Sound</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Sound.h">
+    <ClInclude Include="..\..\cglory\cglory\Sound.h">
       <Filter>Header Files\Sound</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\TerrainMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\TerrainMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\UIMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\UIMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\UnitMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\UnitMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
     <ClInclude Include="UnitProductionMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\BuildingMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\BuildingMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\NameSpaces.h">
+    <ClInclude Include="..\..\cglory\cglory\NameSpaces.h">
       <Filter>Header Files\Overclasses</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\FontManager.h">
+    <ClInclude Include="..\..\cglory\cglory\FontManager.h">
       <Filter>Header Files\Overclasses</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\SpriteHelper.h">
+    <ClInclude Include="..\..\cglory\cglory\SpriteHelper.h">
       <Filter>Header Files\Overclasses</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CellEventListener.h">
+    <ClInclude Include="..\..\cglory\cglory\CellEventListener.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\GameCursor.h">
+    <ClInclude Include="..\..\cglory\cglory\GameCursor.h">
       <Filter>Header Files\Input\Cursor</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AttackCursor.h">
+    <ClInclude Include="..\..\cglory\cglory\AttackCursor.h">
       <Filter>Header Files\Input\Cursor</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\DevCursor.h">
+    <ClInclude Include="..\..\cglory\cglory\DevCursor.h">
       <Filter>Header Files\Input\Cursor</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\MapMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\MapMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\ForceReplaceCursor.h">
+    <ClInclude Include="..\..\cglory\cglory\ForceReplaceCursor.h">
       <Filter>Header Files\Input\Cursor</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AnimationStop.h">
+    <ClInclude Include="..\..\cglory\cglory\AnimationStop.h">
       <Filter>Header Files\Input\AnimationStops</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CellLerpAnimation.h">
+    <ClInclude Include="..\..\cglory\cglory\CellLerpAnimation.h">
       <Filter>Header Files\Input\AnimationStops</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AmbushDirectionSelector.h">
+    <ClInclude Include="..\..\cglory\cglory\AmbushDirectionSelector.h">
       <Filter>Header Files\Input</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AdvanceScreen.h">
+    <ClInclude Include="..\..\cglory\cglory\AdvanceScreen.h">
       <Filter>Header Files\Input</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AllBuildingMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\AllBuildingMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AllUnitMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\AllUnitMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AllTerrainMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\AllTerrainMenu.h">
       <Filter>Header Files\Input\Menu</Filter>
     </ClInclude>
     <ClInclude Include="InputCatcher.h">
       <Filter>Header Files\Input\Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\SelectionCursor.h">
+    <ClInclude Include="..\..\cglory\cglory\SelectionCursor.h">
       <Filter>Header Files\Input\Cursor</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\UIElement.h">
+    <ClInclude Include="..\..\cglory\cglory\UIElement.h">
       <Filter>Header Files\Input\Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\InfoTab.h">
+    <ClInclude Include="..\..\cglory\cglory\InfoTab.h">
       <Filter>Header Files\Input</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\BombardCursor.h">
+    <ClInclude Include="..\..\cglory\cglory\BombardCursor.h">
       <Filter>Header Files\Input\Cursor</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\TitleMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\TitleMenu.h">
       <Filter>Header Files\Input\Menu\MainMenu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\MapSelectionMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\MapSelectionMenu.h">
       <Filter>Header Files\Input\Menu\MainMenu</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Card.h">
+    <ClInclude Include="..\..\cglory\cglory\Card.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CardEffects.h">
+    <ClInclude Include="..\..\cglory\cglory\CardEffects.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CardInfo.h">
+    <ClInclude Include="..\..\cglory\cglory\CardInfo.h">
       <Filter>Header Files\Information</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CardMenu.h">
+    <ClInclude Include="..\..\cglory\cglory\CardMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\InGameOptions.h">
+    <ClInclude Include="..\..\cglory\cglory\InGameOptions.h">
       <Filter>Header Files\Input</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\WinScreen.h">
+    <ClInclude Include="..\..\cglory\cglory\WinScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CardCursor.h">
+    <ClInclude Include="..\..\cglory\cglory\CardCursor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -469,7 +469,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\InputManager.cpp">
+    <ClCompile Include="..\..\cglory\cglory\InputManager.cpp">
       <Filter>Source Files\Input</Filter>
     </ClCompile>
     <ClCompile Include="tinyxmlparser.cpp">
@@ -487,46 +487,46 @@
     <ClCompile Include="XMLLoader.cpp">
       <Filter>Source Files\xml</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\InformationStorage.cpp">
+    <ClCompile Include="..\..\cglory\cglory\InformationStorage.cpp">
       <Filter>Source Files\Information</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\TerrainInfo.cpp">
+    <ClCompile Include="..\..\cglory\cglory\TerrainInfo.cpp">
       <Filter>Source Files\Information</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Unit.cpp">
+    <ClCompile Include="..\..\cglory\cglory\Unit.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\BuildingInfo.cpp">
+    <ClCompile Include="..\..\cglory\cglory\BuildingInfo.cpp">
       <Filter>Source Files\Information</Filter>
     </ClCompile>
     <ClCompile Include="UnitInfo.cpp">
       <Filter>Source Files\Information</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Building.cpp">
+    <ClCompile Include="..\..\cglory\cglory\Building.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Cell.cpp">
+    <ClCompile Include="..\..\cglory\cglory\Cell.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\PlayManager.cpp">
+    <ClCompile Include="..\..\cglory\cglory\PlayManager.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Map.cpp">
+    <ClCompile Include="..\..\cglory\cglory\Map.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Terrain.cpp">
+    <ClCompile Include="..\..\cglory\cglory\Terrain.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Player.cpp">
+    <ClCompile Include="..\..\cglory\cglory\Player.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\JasonTest.cpp">
+    <ClCompile Include="..\..\cglory\cglory\JasonTest.cpp">
       <Filter>Source Files\Test</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CellPathNode.cpp">
+    <ClCompile Include="..\..\cglory\cglory\CellPathNode.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\KeyState.cpp">
+    <ClCompile Include="..\..\cglory\cglory\KeyState.cpp">
       <Filter>Source Files\Input</Filter>
     </ClCompile>
     <ClCompile Include="Utility.cpp">
@@ -550,109 +550,109 @@
     <ClCompile Include="BaseCode.cpp">
       <Filter>Source Files\Overclasses</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\GameObject.cpp">
+    <ClCompile Include="..\..\cglory\cglory\GameObject.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\PlayerOwned.cpp">
+    <ClCompile Include="..\..\cglory\cglory\PlayerOwned.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Sound.cpp">
+    <ClCompile Include="..\..\cglory\cglory\Sound.cpp">
       <Filter>Source Files\Sound</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\UIMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\UIMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
     <ClCompile Include="UnitProductionMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\UnitMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\UnitMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\TerrainMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\TerrainMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\BuildingMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\BuildingMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\SpriteHelper.cpp">
+    <ClCompile Include="..\..\cglory\cglory\SpriteHelper.cpp">
       <Filter>Source Files\Overclasses</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\FontManager.cpp">
+    <ClCompile Include="..\..\cglory\cglory\FontManager.cpp">
       <Filter>Source Files\Overclasses</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AdvanceScreen.cpp">
+    <ClCompile Include="..\..\cglory\cglory\AdvanceScreen.cpp">
       <Filter>Source Files\Input</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AllBuildingMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\AllBuildingMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AllTerrainMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\AllTerrainMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AllUnitMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\AllUnitMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AnimationStop.cpp">
+    <ClCompile Include="..\..\cglory\cglory\AnimationStop.cpp">
       <Filter>Source Files\Input\AnimationStops</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CellLerpAnimation.cpp">
+    <ClCompile Include="..\..\cglory\cglory\CellLerpAnimation.cpp">
       <Filter>Source Files\Input\AnimationStops</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AmbushDirectionSelector.cpp">
+    <ClCompile Include="..\..\cglory\cglory\AmbushDirectionSelector.cpp">
       <Filter>Source Files\Input</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\DevCursor.cpp">
+    <ClCompile Include="..\..\cglory\cglory\DevCursor.cpp">
       <Filter>Source Files\Input\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AttackCursor.cpp">
+    <ClCompile Include="..\..\cglory\cglory\AttackCursor.cpp">
       <Filter>Source Files\Input\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\GameCursor.cpp">
+    <ClCompile Include="..\..\cglory\cglory\GameCursor.cpp">
       <Filter>Source Files\Input\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\ForceReplaceCursor.cpp">
+    <ClCompile Include="..\..\cglory\cglory\ForceReplaceCursor.cpp">
       <Filter>Source Files\Input\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\MapMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\MapMenu.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\SelectionCursor.cpp">
+    <ClCompile Include="..\..\cglory\cglory\SelectionCursor.cpp">
       <Filter>Source Files\Input\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\SelectionCursor.cpp">
+    <ClCompile Include="..\..\cglory\cglory\SelectionCursor.cpp">
       <Filter>Source Files\Input\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\InfoTab.cpp">
+    <ClCompile Include="..\..\cglory\cglory\InfoTab.cpp">
       <Filter>Source Files\Input</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\BombardCursor.cpp">
+    <ClCompile Include="..\..\cglory\cglory\BombardCursor.cpp">
       <Filter>Source Files\Input\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\TitleMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\TitleMenu.cpp">
       <Filter>Source Files\Input\Menu\MainMenu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\MapSelectionMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\MapSelectionMenu.cpp">
       <Filter>Source Files\Input\Menu\MainMenu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Card.cpp">
+    <ClCompile Include="..\..\cglory\cglory\Card.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CardEffects.cpp">
+    <ClCompile Include="..\..\cglory\cglory\CardEffects.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CardInfo.cpp">
+    <ClCompile Include="..\..\cglory\cglory\CardInfo.cpp">
       <Filter>Source Files\Information</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CardMenu.cpp">
+    <ClCompile Include="..\..\cglory\cglory\CardMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\InGameOptions.cpp">
+    <ClCompile Include="..\..\cglory\cglory\InGameOptions.cpp">
       <Filter>Source Files\Input\Menu</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\WinScreen.cpp">
+    <ClCompile Include="..\..\cglory\cglory\WinScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CardCursor.cpp">
+    <ClCompile Include="..\..\cglory\cglory\CardCursor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
