@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Info>
+  <Units>
+    <Unit>
+      <ID>0</ID>
+      <Name>Infantry</Name>
+      <Description>This is the basic unit of all armies</Description>
+      <SpritePath>BigShockTrooper.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <CombatStats captures="1" attack="1" defense="1" minrange="1" maxrange="1" health="5" movement="3" movementtype="0" cost="100" sight="2" />
+    </Unit>
+    <Unit>
+      <ID>1</ID>
+      <Name>Sniper</Name>
+      <Description>Top of the line marksman who can hit an enemy from a mile away.  Not very good up close</Description>
+      <SpritePath>sniper.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <CombatStats ambushes="1" attack="5" defense="0" minrange="3" maxrange="6" health="4" movement="3" movementtype="0" cost="300" sight="8"/>
+    </Unit>
+    <Unit>
+      <ID>2</ID>
+      <Name>Marksman</Name>
+      <Description>An upgraded infantry unit.  He's seen the frontlines of battle, and it's made him all the stronger.</Description>
+      <SpritePath>BigShockTrooper.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <CombatStats captures="2" attack="2" defense="2" minrange="1" maxrange="2" health="8" movement="4" movementtype="0" cost="200" sight="3" />
+    </Unit>
+    <Unit>
+      <ID>3</ID>
+      <Name>Artillery</Name>
+      <Description>Your standard paramilitary grade artillery piece. Can bombard squares.</Description>
+      <SpritePath>artillery.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <CombatStats bombards="1" attack="5" defense="0" minrange="5" maxrange="10" movement="3" movementtype="2" cost="300" sight="8"/>
+    </Unit>
+    <Unit>
+      <ID>4</ID>
+      <Name>Tank</Name>
+      <Description>Standard military tank.  Quite durable, and has a lot of strength.</Description>
+      <SpritePath>artillery.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <CombatStats attack="6" defense="3" minrange="2" maxrange="4" movement="4" movementtype="2" cost="300" sight="5" />
+    </Unit>
+  </Units>
+
+  <Terrain>
+    <Tile>
+      <ID>0</ID>
+      <Name>Grass</Name>
+      <Defense>1</Defense>
+      <SpritePath>bgsheet2.gif</SpritePath>
+      <TextureCoordinates x="1" y="1" />
+      <MovementCosts foot="1" wheel="1" tread="1" water="1" air="1" underground="1" />
+      <GrantsCover value="0" />
+    </Tile>
+    <Tile>
+      <ID>1</ID>
+      <Name>Salt Flats</Name>
+      <Defense>1</Defense>
+      <SpritePath>bgsheet2.gif</SpritePath>
+      <TextureCoordinates x="0" y="3" />
+      <MovementCosts foot="1" wheel="1" tread="1" water="1" air="1" underground="1" />
+      <GrantsCover value="0" />
+    </Tile>
+    <Tile>
+      <ID>2</ID>
+      <Name>Mountain</Name>
+      <Defense>3</Defense>
+      <SpritePath>bgsheet2.gif</SpritePath>
+      <TextureCoordinates x="0" y="13" />
+      <MovementCosts foot="2" wheel="500" tread="5" water="500" air="1" underground="1" />
+      <GrantsCover value="1" />
+    </Tile>
+    <Tile>
+      <ID>3</ID>
+      <Name>Road</Name>
+      <Defense>0</Defense>
+      <SpritePath>bgsheet2.gif</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <MovementCosts foot="1" wheel="1" tread="1" water="500" air="1" underground="1" />
+      <GrantsCover value="0" />
+    </Tile>
+    <Tile>
+      <ID>4</ID>
+      <Name>Trees</Name>
+      <Defense>1</Defense>
+      <SpritePath>bgsheet2.gif</SpritePath>
+      <TextureCoordinates x="0" y="6" />
+      <MovementCosts foot="2" wheel="3" tread="1" water="500" air="1" underground="1" />
+      <GrantsCover value="1" />
+    </Tile>
+    <Tile>
+      <ID>5</ID>
+      <Name>Rocks</Name>
+      <Defense>1</Defense>
+      <SpritePath>bgsheet2.gif</SpritePath>
+      <TextureCoordinates x="6" y="18" />
+      <MovementCosts foot="2" wheel="3" tread="2" water="500" air="1" underground="1" />
+      <GrantsCover value="0" />
+    </Tile>
+    <Tile>
+      <ID>6</ID>
+      <Name>Water</Name>
+      <Defense>1</Defense>
+      <SpritePath>water.png</SpritePath>
+      <TextureCoordinates animated="1" x="0" y="0" />
+      <MovementCosts foot="500" wheel="500" tread="500" water="1" air="1" underground="1" />
+      <GrantsCover value="0" />
+    </Tile>
+  </Terrain>
+
+  <Buildings>
+    <Building>
+      <ID>0</ID>
+      <Name>Headquarters</Name>
+      <Defense>3</Defense>
+      <GloryMod>50</GloryMod>
+      <Health>20</Health>
+      <SpritePath>headquarters.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <Production>
+        <UID>0</UID>
+      </Production>
+    </Building>
+    <Building>
+      <ID>1</ID>
+      <Name>Barracks</Name>
+      <Defense>1</Defense>
+      <GloryMod>20</GloryMod>
+      <Health>10</Health>
+      <SpritePath>factory.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <Production>
+        <UID>0</UID>
+        <UID>1</UID>
+      </Production>
+    </Building>
+    <Building>
+      <ID>2</ID>
+      <Name>City</Name>
+      <Defense>2</Defense>
+      <GloryMod>20</GloryMod>
+      <Health>10</Health>
+      <SpritePath>testbuilding.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <Production>
+      </Production>
+    </Building>
+    <Building>
+      <ID>3</ID>
+      <Name>Factory</Name>
+      <Defense>1</Defense>
+      <GloryMod>20</GloryMod>
+      <Health>10</Health>
+      <SpritePath>factory.png</SpritePath>
+      <TextureCoordinates x="0" y="0" />
+      <Production>
+        <UID>3</UID>
+        <UID>4</UID>
+      </Production>
+    </Building>
+  </Buildings>
+
+  <Cards>
+    <Card playcost="150" purchasecost="200">
+      <ID>0</ID>
+      <Name>Scoped Rifle</Name>
+      <Description>Allow your infantry or marksmen to target farther</Description>
+      <StatChanger stat="2" modifier="2" layer="2">
+        <Legal>
+          <ID>0</ID>
+          <ID>2</ID>
+        </Legal>
+      </StatChanger>
+    </Card>
+
+    <Card playcost="200" purchasecost="300">
+      <ID>1</ID>
+      <Name>Sniper Promotion</Name>
+      <Description>Three Experience required. Promote one of your infantry units into a sniper</Description>
+      <UnitPromoter exp="3" newID="1">
+        <Legal>
+          <ID>0</ID>
+        </Legal>
+      </UnitPromoter>
+    </Card>
+
+    <Card playcost="125" purchasecost="50">
+    <ID>2</ID>
+    <Name>Cut Supplies</Name>
+    <Description>Cut your opponent's supplies, reducing his glory by 100.</Description>
+    <GloryRemover modifier="100" />
+    </Card>
+
+    <Card playcost="100" purchasecost="200">
+      <ID>3</ID>
+      <Name>Sabotage Intelligence</Name>
+      <Description>Sabotage your opponent's intelligence, forcing him to randomly discard one of his cards</Description>
+      <CardDiscarder cards="1" />
+    </Card>
+
+    <Card playcost="400" purchasecost="300">
+      <ID>4</ID>
+      <Name>Build Barracks</Name>
+      <Description>Build a barracks at this location</Description>
+      <ObjectProducer layer="1" id="1" />
+    </Card>
+      
+  </Cards>
+</Info>

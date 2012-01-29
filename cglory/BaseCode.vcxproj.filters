@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{ace04e78-e5c4-4ca6-84f6-b4c6ce9385c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{95d59f85-d085-4b9d-a691-bc5fe564d8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\xml">
+      <UniqueIdentifier>{cb2feeea-7e80-4888-b11a-06beac97630c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xml">
+      <UniqueIdentifier>{f3f1608f-a00d-4722-b5f4-4d56f32baab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Information">
+      <UniqueIdentifier>{64e10797-d96a-47fb-9465-5d275e740ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Information">
+      <UniqueIdentifier>{dec2ca0d-b0de-4959-9b0e-bb9a2c34b7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{45c24081-3c26-43e9-99fc-42bfc0b9ad2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{771e1732-e5b9-42d9-9eb1-589f0c3eff07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{eba73331-b539-44ff-8d53-469501e3126c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{c4543f2f-0e41-438a-ba27-54916365566e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TileOverlays">
+      <UniqueIdentifier>{43b5c89b-f1ca-46f2-9b04-3c6c3bbf6703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overclasses">
+      <UniqueIdentifier>{5c8c97f2-665c-4cd2-94ad-de7fd827d589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overclasses">
+      <UniqueIdentifier>{2909fb15-5664-4269-b90e-6a539941f393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{b1359286-371b-43c6-b5d2-0d6eb749ebba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{edbb7e53-044c-4009-9697-21509afaa533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextFiles">
+      <UniqueIdentifier>{a0ff76f4-2822-4dc7-8b68-319abf152b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{ee23a8d1-5945-49d4-bccc-6013360ea211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{43f829e8-8fbd-4a3f-807f-82e61383e879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Menu">
+      <UniqueIdentifier>{0a4e0e34-3fc2-4fe6-a235-0c943dbb787c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input\Menu">
+      <UniqueIdentifier>{1504d637-2fb4-4b9a-af2d-949a8e96ca15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Maps">
+      <UniqueIdentifier>{adb14316-8d32-42a7-ae6e-815fc4edf11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\graphics">
+      <UniqueIdentifier>{7bba59ae-31e0-4734-8478-97f1016e0258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input\Cursor">
+      <UniqueIdentifier>{c6109fe2-bfa2-44e6-8eb6-f150218a6c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Cursor">
+      <UniqueIdentifier>{3323c457-72b3-4c39-8c7b-034f8d328cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\AnimationStops">
+      <UniqueIdentifier>{371a68cc-bda5-4aa0-bd75-a2c167d60090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input\AnimationStops">
+      <UniqueIdentifier>{d5838769-bfff-475a-a76e-6ca96682aa73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Interfaces">
+      <UniqueIdentifier>{3d937bb3-ca35-4ae0-94a4-42f077a39e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input\Menu\MainMenu">
+      <UniqueIdentifier>{ce0b05a7-9634-4eda-924b-9be6064eded4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Menu\MainMenu">
+      <UniqueIdentifier>{7d6aeff8-3482-4f01-a676-487f6356e928}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basicEffect.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sprites.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\tiles.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\info.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\fog.png">
+      <Filter>Resource Files\TileOverlays</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\range.png">
+      <Filter>Resource Files\TileOverlays</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\selected.png">
+      <Filter>Resource Files\TileOverlays</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\available.png">
+      <Filter>Resource Files\TileOverlays</Filter>
+    </None>
+    <None Include="ReadMe.txt">
+      <Filter>TextFiles</Filter>
+    </None>
+    <None Include="answer.txt">
+      <Filter>TextFiles</Filter>
+    </None>
+    <None Include="Controls.txt">
+      <Filter>TextFiles</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\DepthStandards.txt">
+      <Filter>TextFiles</Filter>
+    </None>
+    <None Include="HowToEditConflicts.txt">
+      <Filter>TextFiles</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\electronic_stapler.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\SettingUpTODOTasks.txt">
+      <Filter>TextFiles</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\map.xml">
+      <Filter>Resource Files\Maps</Filter>
+    </None>
+    <None Include="BaseCode.ico">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="bgSheet.gif">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\bgSheet2.gif">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="bgTile.bmp">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\BigShockTrooper.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="bitmap1.bmp">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="bitmap2.bmp">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="consolebg.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="cursor.cur">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\cursorAnimation.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\menuCursor.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\testbuilding.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="tank.bmp">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="blood.xml">
+      <Filter>Resource Files\Maps</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\invalid.xml">
+      <Filter>Resource Files\Maps</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\blackpixel.bmp">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\path.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\ambush.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\peaisland.xml">
+      <Filter>Resource Files\Maps</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\factory.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\headquarters.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\water.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\artillery.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\glorytab.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\infotab.png">
+      <Filter>Resource Files\graphics</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\maplist.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\tinyisland.xml">
+      <Filter>Resource Files\Maps</Filter>
+    </None>
+    <None Include="..\..\Commander%27sGlory\BaseCode\loopy.xml">
+      <Filter>Resource Files\Maps</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\KeyState.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\InputManager.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInputMapping.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLLoader.h">
+      <Filter>Header Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Header Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Header Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\InformationStorage.h">
+      <Filter>Header Files\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\TerrainInfo.h">
+      <Filter>Header Files\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\BuildingInfo.h">
+      <Filter>Header Files\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitInfo.h">
+      <Filter>Header Files\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Building.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Cell.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\PlayManager.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Map.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Terrain.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Player.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\JasonTest.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CellPathNode.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\TraversalCostHelper.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="DeveloperConsole.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="dxManager.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCode.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteInfo.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Unit.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\PlayerOwned.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod.hpp">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_codec.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_dsp.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_errors.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_memoryinfo.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\fmod_output.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Sound.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\TerrainMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\UIMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\UnitMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitProductionMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\BuildingMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\NameSpaces.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\FontManager.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\SpriteHelper.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CellEventListener.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\GameCursor.h">
+      <Filter>Header Files\Input\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AttackCursor.h">
+      <Filter>Header Files\Input\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\DevCursor.h">
+      <Filter>Header Files\Input\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\MapMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\ForceReplaceCursor.h">
+      <Filter>Header Files\Input\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AnimationStop.h">
+      <Filter>Header Files\Input\AnimationStops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CellLerpAnimation.h">
+      <Filter>Header Files\Input\AnimationStops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AmbushDirectionSelector.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AdvanceScreen.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AllBuildingMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AllUnitMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\AllTerrainMenu.h">
+      <Filter>Header Files\Input\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCatcher.h">
+      <Filter>Header Files\Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\SelectionCursor.h">
+      <Filter>Header Files\Input\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\UIElement.h">
+      <Filter>Header Files\Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\InfoTab.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\BombardCursor.h">
+      <Filter>Header Files\Input\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\TitleMenu.h">
+      <Filter>Header Files\Input\Menu\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\MapSelectionMenu.h">
+      <Filter>Header Files\Input\Menu\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\Card.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CardEffects.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CardInfo.h">
+      <Filter>Header Files\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CardMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\InGameOptions.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\WinScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Commander%27sGlory\BaseCode\CardCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLLoader.cpp">
+      <Filter>Source Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\InformationStorage.cpp">
+      <Filter>Source Files\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\TerrainInfo.cpp">
+      <Filter>Source Files\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Unit.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\BuildingInfo.cpp">
+      <Filter>Source Files\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitInfo.cpp">
+      <Filter>Source Files\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Building.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Cell.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\PlayManager.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Map.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Terrain.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Player.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\JasonTest.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CellPathNode.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\KeyState.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Overclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>Source Files\Overclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="DeveloperConsole.cpp">
+      <Filter>Source Files\Overclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="dxManager.cpp">
+      <Filter>Source Files\Overclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteInfo.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCode.cpp">
+      <Filter>Source Files\Overclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\PlayerOwned.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Sound.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\UIMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitProductionMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\UnitMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\TerrainMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\BuildingMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\SpriteHelper.cpp">
+      <Filter>Source Files\Overclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\FontManager.cpp">
+      <Filter>Source Files\Overclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AdvanceScreen.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AllBuildingMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AllTerrainMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AllUnitMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AnimationStop.cpp">
+      <Filter>Source Files\Input\AnimationStops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CellLerpAnimation.cpp">
+      <Filter>Source Files\Input\AnimationStops</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AmbushDirectionSelector.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\DevCursor.cpp">
+      <Filter>Source Files\Input\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\AttackCursor.cpp">
+      <Filter>Source Files\Input\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\GameCursor.cpp">
+      <Filter>Source Files\Input\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\ForceReplaceCursor.cpp">
+      <Filter>Source Files\Input\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\MapMenu.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\SelectionCursor.cpp">
+      <Filter>Source Files\Input\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\SelectionCursor.cpp">
+      <Filter>Source Files\Input\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\InfoTab.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\BombardCursor.cpp">
+      <Filter>Source Files\Input\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\TitleMenu.cpp">
+      <Filter>Source Files\Input\Menu\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\MapSelectionMenu.cpp">
+      <Filter>Source Files\Input\Menu\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\Card.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CardEffects.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CardInfo.cpp">
+      <Filter>Source Files\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CardMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\InGameOptions.cpp">
+      <Filter>Source Files\Input\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\WinScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Commander%27sGlory\BaseCode\CardCursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BaseCode.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

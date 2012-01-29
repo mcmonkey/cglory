@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<TileInfo>
+  <Tiles>
+    <Tile name="River Tile 1" shorthand="1" defense="1" x="0" y="0" />
+    <Tile name="River Tile 2" shorthand="2" defense="1" x="1" y="0" />
+    <Tile name="River Tile 3" shorthand="3" defense="1" x="2" y="0" />
+    <Tile name="River Tile 4" shorthand="4" defense="1" x="3" y="0" />
+    <Tile name="River Tile 5" shorthand="5" defense="1" x="4" y="0" />
+    <Tile name="River Tile 6" shorthand="6" defense="1" x="5" y="0" />
+    <Tile name="River Tile 7" shorthand="7" defense="1" x="6" y="0" />
+    <Tile name="River Tile 8" shorthand="8" defense="1" x="7" y="0" />
+    <Tile name="River Tile 9" shorthand="9" defense="1" x="0" y="0" />
+    <Tile name="River Tile 10" shorthand="10" defense="1" x="1" y="1" />
+    <Tile name="River Tile 11" shorthand="11" defense="1" x="2" y="1" />
+    <Tile name="River Tile 12" shorthand="12" defense="1" x="3" y="1" />
+    <Tile name="River Tile 13" shorthand="13" defense="1" x="4" y="1" />
+    <Tile name="River Tile 14" shorthand="14" defense="1" x="5" y="1" />
+    <Tile name="River Tile 15" shorthand="15" defense="1" x="6" y="1" />
+    <Tile name="Grass Tile 1" shorthand="16" defense="1" x="0" y="1" />
+    <Tile name="Forest Tile 1" shorthand="17" defense="2" x="0" y="6" />
+    <Tile name="Mountain Tile 1" shorthand="18" defense="4" x="0" y="13" />
+  </Tiles>
+</TileInfo>

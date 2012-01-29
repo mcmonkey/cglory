@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map name="Pea Island, 2p" path="peaisland.xml" />
+  <Map name="Tiny Island, 2p" path="tinyisland.xml" />
+  <Map name="Loops, 4p" path="loopy.xml" />
+  <Map name="Developer Map, 2p" path="map.xml" />
+</Maps>

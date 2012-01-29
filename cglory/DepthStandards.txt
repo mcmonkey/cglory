@@ -1,0 +1,15 @@
+0-10 = Map
+	0 Terrain
+	3 Building
+	5 Unit
+	7 Fog
+
+11-20 Menus
+	11 Overlay
+	13 Map Selector
+	15 UI/Information elements
+	17 Menus
+
+
+21 DeveloperConsole
+22 Mouse Cursor (if we have one)

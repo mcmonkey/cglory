@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TileInfo>
+
+  <Units>
+    <Unit id="0" pId="1" x="2" y="3" />
+    <Unit id="0" pId="1" x="3" y="3" />
+    <Unit id="0" pId="2" x="8" y="6" />
+    <Unit id="0" pId="2" x="2" y="5" />
+  </Units>
+
+  <Buildings>
+    <Building id="0" pId="1" x="6" y="6" />
+    <Building id="0" pId="2" x="7" y="6" />
+  </Buildings>
+
+  <Tiles width="10" height="10" playercount="2">
+    <Tile shorthand="1" x="0" y="0" />
+    <Tile shorthand="18" x="0" y="1" />
+    <Tile shorthand="1" x="0" y="2" />
+    <Tile shorthand="1" x="0" y="3" />
+    <Tile shorthand="1" x="0" y="4" />
+    <Tile shorthand="1" x="0" y="5" />
+    <Tile shorthand="1" x="0" y="6" />
+    <Tile shorthand="1" x="0" y="7" />
+    <Tile shorthand="1" x="0" y="8" />
+    <Tile shorthand="1" x="0" y="9" />
+    <Tile shorthand="1" x="1" y="0" />
+    <Tile shorthand="0" x="1" y="1" />
+    <Tile shorthand="0" x="1" y="2" />
+    <Tile shorthand="0" x="1" y="3" />
+    <Tile shorthand="0" x="1" y="4" />
+    <Tile shorthand="0" x="1" y="5" />
+    <Tile shorthand="0" x="1" y="6" />
+    <Tile shorthand="0" x="1" y="7" />
+    <Tile shorthand="0" x="1" y="8" />
+    <Tile shorthand="0" x="1" y="9" />
+    <Tile shorthand="1" x="2" y="0" />
+    <Tile shorthand="0" x="2" y="1" />
+    <Tile shorthand="0" x="2" y="2" />
+    <Tile shorthand="0" x="2" y="3" />
+    <Tile shorthand="0" x="2" y="4" />
+    <Tile shorthand="0" x="2" y="5" />
+    <Tile shorthand="0" x="2" y="6" />
+    <Tile shorthand="0" x="2" y="7" />
+    <Tile shorthand="0" x="2" y="8" />
+    <Tile shorthand="0" x="2" y="9" />
+    <Tile shorthand="1" x="3" y="0" />
+    <Tile shorthand="0" x="3" y="1" />
+    <Tile shorthand="0" x="3" y="2" />
+    <Tile shorthand="0" x="3" y="3" />
+    <Tile shorthand="0" x="3" y="4" />
+    <Tile shorthand="1" x="3" y="5" />
+    <Tile shorthand="0" x="3" y="6" />
+    <Tile shorthand="0" x="3" y="7" />
+    <Tile shorthand="0" x="3" y="8" />
+    <Tile shorthand="0" x="3" y="9" />
+    <Tile shorthand="1" x="4" y="0" />
+    <Tile shorthand="0" x="4" y="1" />
+    <Tile shorthand="0" x="4" y="2" />
+    <Tile shorthand="0" x="4" y="3" />
+    <Tile shorthand="0" x="4" y="4" />
+    <Tile shorthand="0" x="4" y="5" />
+    <Tile shorthand="0" x="4" y="6" />
+    <Tile shorthand="0" x="4" y="7" />
+    <Tile shorthand="0" x="4" y="8" />
+    <Tile shorthand="0" x="4" y="9" />
+    <Tile shorthand="0" x="5" y="0" />
+    <Tile shorthand="0" x="5" y="1" />
+    <Tile shorthand="0" x="5" y="2" />
+    <Tile shorthand="0" x="5" y="3" />
+    <Tile shorthand="0" x="5" y="4" />
+    <Tile shorthand="0" x="5" y="5" />
+    <Tile shorthand="0" x="5" y="6" />
+    <Tile shorthand="0" x="5" y="7" />
+    <Tile shorthand="0" x="5" y="8" />
+    <Tile shorthand="0" x="5" y="9" />
+    <Tile shorthand="0" x="6" y="0" />
+    <Tile shorthand="0" x="6" y="1" />
+    <Tile shorthand="0" x="6" y="2" />
+    <Tile shorthand="0" x="6" y="3" />
+    <Tile shorthand="0" x="6" y="4" />
+    <Tile shorthand="0" x="6" y="5" />
+    <Tile shorthand="0" x="6" y="6" />
+    <Tile shorthand="0" x="6" y="7" />
+    <Tile shorthand="0" x="6" y="8" />
+    <Tile shorthand="0" x="6" y="9" />
+    <Tile shorthand="0" x="7" y="0" />
+    <Tile shorthand="0" x="7" y="1" />
+    <Tile shorthand="0" x="7" y="2" />
+    <Tile shorthand="0" x="7" y="3" />
+    <Tile shorthand="0" x="7" y="4" />
+    <Tile shorthand="0" x="7" y="5" />
+    <Tile shorthand="0" x="7" y="6" />
+    <Tile shorthand="0" x="7" y="7" />
+    <Tile shorthand="0" x="7" y="8" />
+    <Tile shorthand="0" x="7" y="9" />
+    <Tile shorthand="0" x="8" y="0" />
+    <Tile shorthand="0" x="8" y="1" />
+    <Tile shorthand="0" x="8" y="2" />
+    <Tile shorthand="0" x="8" y="3" />
+    <Tile shorthand="0" x="8" y="4" />
+    <Tile shorthand="0" x="8" y="5" />
+    <Tile shorthand="0" x="8" y="6" />
+    <Tile shorthand="0" x="8" y="7" />
+    <Tile shorthand="0" x="8" y="8" />
+    <Tile shorthand="0" x="8" y="9" />
+    <Tile shorthand="0" x="9" y="0" />
+    <Tile shorthand="0" x="9" y="1" />
+    <Tile shorthand="0" x="9" y="2" />
+    <Tile shorthand="0" x="9" y="3" />
+    <Tile shorthand="0" x="9" y="4" />
+    <Tile shorthand="0" x="9" y="5" />
+    <Tile shorthand="0" x="9" y="6" />
+    <Tile shorthand="0" x="9" y="7" />
+    <Tile shorthand="0" x="9" y="8" />
+    <Tile shorthand="0" x="9" y="9" />
+  </Tiles>
+
+  <Cards>
+    <ID>1</ID>
+    <ID>1</ID>
+    <ID>2</ID>
+    <ID>3</ID>
+    <ID>1</ID>
+    <ID>3</ID>
+    <ID>4</ID>
+    <ID>0</ID>
+    <ID>0</ID>
+  </Cards>
+</TileInfo>

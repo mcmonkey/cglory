@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<SpriteInfo>
+	<Sprites>
+    <bgTile>bgTile.bmp</bgTile>
+    <tank>tank.bmp</tank>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+    <Sprite1>bitmap1.bmp</Sprite1>
+    <Sprite2>bitmap2.bmp</Sprite2>
+	</Sprites>
+</SpriteInfo>

@@ -1,0 +1,8 @@
+Spacebar - Toggle full screen.
+Left and right toggle the alternating and straight through drawing methods respectively.
+Both can run at the same time.
+'a' - all blocks move their velocity. output for the tile with and x is displayed too
+Arrow keys to move the camera
+
+~	toggles console visibility
+F2	toggles console input acceptance (which is bound to visibility as well)	

@@ -1,0 +1,4 @@
+Go to here:
+http://blogs.msdn.com/b/zainnab/archive/2010/06/07/todo-comments-in-the-task-list-vstiptool0029.aspx
+
+And then use the the task list by going to View->Other Windows->Task List

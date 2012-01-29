@@ -1,0 +1,5 @@
+Ankh doesn't have a built in conflict editor. So you'll have to use tortoise's.
+Go to Tools->Options->Source Control->Subversion User Tools
+and copy+paste this:
+"C:\Program Files\TortoiseSVN\bin\TortoiseMerge.exe" /base:$(Base) /mine:$(Mine) /theirs:$(Theirs) /merged:$(Merged)
+into the External Merge tool field.

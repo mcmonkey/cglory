@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7C24FA7-B747-4382-8413-282B489E3083}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BaseCode</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <ProjectName>clgory</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(DXSDK_DIR)include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(FrameworkSDKDir)\include;$(WindowsSdkDir)include</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;$(DXSDK_DIR)lib/x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d10.lib;d3dx10d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\cglory\cglory\ambush.png" />
+    <None Include="..\..\cglory\cglory\artillery.png" />
+    <None Include="..\..\cglory\cglory\available.png" />
+    <None Include="..\..\cglory\cglory\bgSheet2.gif" />
+    <None Include="..\..\cglory\cglory\BigShockTrooper.png" />
+    <None Include="..\..\cglory\cglory\blackpixel.bmp" />
+    <None Include="..\..\cglory\cglory\factory.png" />
+    <None Include="..\..\cglory\cglory\glorytab.png" />
+    <None Include="..\..\cglory\cglory\headquarters.png" />
+    <None Include="..\..\cglory\cglory\infotab.png" />
+    <None Include="..\..\cglory\cglory\invalid.xml" />
+    <None Include="..\..\cglory\cglory\loopy.xml" />
+    <None Include="..\..\cglory\cglory\maplist.xml" />
+    <None Include="..\..\cglory\cglory\path.png" />
+    <None Include="..\..\cglory\cglory\peaisland.xml" />
+    <None Include="..\..\cglory\cglory\tinyisland.xml" />
+    <None Include="..\..\cglory\cglory\water.png" />
+    <None Include="blood.xml" />
+    <None Include="..\..\cglory\cglory\cursorAnimation.png" />
+    <None Include="..\..\cglory\cglory\DepthStandards.txt" />
+    <None Include="..\..\cglory\cglory\electronic_stapler.wav" />
+    <None Include="..\..\cglory\cglory\fog.png" />
+    <None Include="..\..\cglory\cglory\info.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\..\cglory\cglory\map.xml" />
+    <None Include="..\..\cglory\cglory\menuCursor.png" />
+    <None Include="..\..\cglory\cglory\range.png" />
+    <None Include="..\..\cglory\cglory\selected.png" />
+    <None Include="..\..\cglory\cglory\SettingUpTODOTasks.txt" />
+    <None Include="..\..\cglory\cglory\testbuilding.png" />
+    <None Include="..\..\cglory\cglory\tiles.xml" />
+    <None Include="answer.txt" />
+    <None Include="BaseCode.ico" />
+    <None Include="basicEffect.fx" />
+    <None Include="bgSheet.gif" />
+    <None Include="bgTile.bmp" />
+    <None Include="bitmap1.bmp" />
+    <None Include="bitmap2.bmp" />
+    <None Include="consolebg.png" />
+    <None Include="Controls.txt" />
+    <None Include="cursor.cur" />
+    <None Include="HowToEditConflicts.txt" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+    <None Include="sprites.xml" />
+    <None Include="tank.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\cglory\cglory\AdvanceScreen.h" />
+    <ClInclude Include="..\..\cglory\cglory\AllUnitMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\AmbushDirectionSelector.h" />
+    <ClInclude Include="..\..\cglory\cglory\AnimationStop.h" />
+    <ClInclude Include="..\..\cglory\cglory\AllBuildingMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\AllTerrainMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\AttackCursor.h" />
+    <ClInclude Include="..\..\cglory\cglory\BombardCursor.h" />
+    <ClInclude Include="..\..\cglory\cglory\Building.h" />
+    <ClInclude Include="..\..\cglory\cglory\BuildingInfo.h" />
+    <ClInclude Include="..\..\cglory\cglory\BuildingMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\Card.h" />
+    <ClInclude Include="..\..\cglory\cglory\CardCursor.h" />
+    <ClInclude Include="..\..\cglory\cglory\CardEffects.h" />
+    <ClInclude Include="..\..\cglory\cglory\CardInfo.h" />
+    <ClInclude Include="..\..\cglory\cglory\CardMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\Cell.h" />
+    <ClInclude Include="..\..\cglory\cglory\CellEventListener.h" />
+    <ClInclude Include="..\..\cglory\cglory\CellLerpAnimation.h" />
+    <ClInclude Include="..\..\cglory\cglory\CellPathNode.h" />
+    <ClInclude Include="..\..\cglory\cglory\DevCursor.h" />
+    <ClInclude Include="..\..\cglory\cglory\fmod.h" />
+    <ClInclude Include="..\..\cglory\cglory\fmod.hpp" />
+    <ClInclude Include="..\..\cglory\cglory\fmod_codec.h" />
+    <ClInclude Include="..\..\cglory\cglory\fmod_dsp.h" />
+    <ClInclude Include="..\..\cglory\cglory\fmod_errors.h" />
+    <ClInclude Include="..\..\cglory\cglory\fmod_memoryinfo.h" />
+    <ClInclude Include="..\..\cglory\cglory\fmod_output.h" />
+    <ClInclude Include="..\..\cglory\cglory\FontManager.h" />
+    <ClInclude Include="..\..\cglory\cglory\ForceReplaceCursor.h" />
+    <ClInclude Include="..\..\cglory\cglory\GameCursor.h" />
+    <ClInclude Include="..\..\cglory\cglory\GameObject.h" />
+    <ClInclude Include="..\..\cglory\cglory\InformationStorage.h" />
+    <ClInclude Include="..\..\cglory\cglory\InfoTab.h" />
+    <ClInclude Include="..\..\cglory\cglory\InGameOptions.h" />
+    <ClInclude Include="..\..\cglory\cglory\JasonTest.h" />
+    <ClInclude Include="..\..\cglory\cglory\Map.h" />
+    <ClInclude Include="..\..\cglory\cglory\MapMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\MapSelectionMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\NameSpaces.h" />
+    <ClInclude Include="..\..\cglory\cglory\Player.h" />
+    <ClInclude Include="..\..\cglory\cglory\PlayerOwned.h" />
+    <ClInclude Include="..\..\cglory\cglory\PlayManager.h" />
+    <ClInclude Include="..\..\cglory\cglory\SpriteHelper.h" />
+    <ClInclude Include="..\..\cglory\cglory\TitleMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\WinScreen.h" />
+    <ClInclude Include="UnitProductionMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\SelectionCursor.h" />
+    <ClInclude Include="..\..\cglory\cglory\Sound.h" />
+    <ClInclude Include="..\..\cglory\cglory\Terrain.h" />
+    <ClInclude Include="..\..\cglory\cglory\TerrainInfo.h" />
+    <ClInclude Include="..\..\cglory\cglory\TerrainMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\TraversalCostHelper.h" />
+    <ClInclude Include="..\..\cglory\cglory\UIElement.h" />
+    <ClInclude Include="..\..\cglory\cglory\UIMenu.h" />
+    <ClInclude Include="..\..\cglory\cglory\Unit.h" />
+    <ClInclude Include="..\..\cglory\cglory\UnitMenu.h" />
+    <ClInclude Include="InputCatcher.h" />
+    <ClInclude Include="..\..\cglory\cglory\InputManager.h" />
+    <ClInclude Include="UnitInfo.h" />
+    <ClInclude Include="WindowsInputMapping.h" />
+    <ClInclude Include="..\..\cglory\cglory\KeyState.h" />
+    <ClInclude Include="BaseCode.h" />
+    <ClInclude Include="DeveloperConsole.h" />
+    <ClInclude Include="dxManager.h" />
+    <ClInclude Include="GameSprite.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SpriteInfo.h" />
+    <ClInclude Include="Stats.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="XMLLoader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\cglory\cglory\AdvanceScreen.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\AllUnitMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\AmbushDirectionSelector.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\AnimationStop.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\AllBuildingMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\AllTerrainMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\AttackCursor.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\BombardCursor.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\Building.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\BuildingInfo.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\BuildingMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\Card.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\CardCursor.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\CardEffects.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\CardInfo.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\CardMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\Cell.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\CellLerpAnimation.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\CellPathNode.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\DevCursor.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\FontManager.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\ForceReplaceCursor.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\GameCursor.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\GameObject.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\InformationStorage.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\InfoTab.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\InGameOptions.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\InputManager.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\JasonTest.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\KeyState.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\Map.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\MapMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\MapSelectionMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\Player.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\PlayerOwned.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\PlayManager.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\SpriteHelper.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\TitleMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\WinScreen.cpp" />
+    <ClCompile Include="UnitProductionMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\SelectionCursor.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\Sound.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\Terrain.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\TerrainInfo.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\TerrainMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\UIMenu.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\Unit.cpp" />
+    <ClCompile Include="..\..\cglory\cglory\UnitMenu.cpp" />
+    <ClCompile Include="BaseCode.cpp" />
+    <ClCompile Include="DeveloperConsole.cpp" />
+    <ClCompile Include="dxManager.cpp" />
+    <ClCompile Include="GameSprite.cpp" />
+    <ClCompile Include="SpriteInfo.cpp" />
+    <ClCompile Include="Stats.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="UnitInfo.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="XMLLoader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BaseCode.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
