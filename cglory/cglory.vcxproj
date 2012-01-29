@@ -279,7 +279,7 @@
     <ClCompile Include="XMLLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="BaseCode.rc" />
+    <ResourceCompile Include="cglory.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
