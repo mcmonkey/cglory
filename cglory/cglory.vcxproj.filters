@@ -100,6 +100,12 @@
     <Filter Include="Header Files\Input\Menu\MainMenu">
       <UniqueIdentifier>{7d6aeff8-3482-4f01-a676-487f6356e928}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameObjects\components">
+      <UniqueIdentifier>{f0518465-a9f6-4448-aa85-977adfbfff91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\components">
+      <UniqueIdentifier>{19060af2-6b98-4e46-919d-0776a92da6fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="basicEffect.fx">
@@ -464,6 +470,21 @@
     <ClInclude Include="..\..\cglory\cglory\CardCursor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IProductionComponent.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObjectComponent.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="IPositionComponent.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectComponent.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -654,6 +675,9 @@
     </ClCompile>
     <ClCompile Include="..\..\cglory\cglory\CardCursor.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectComponent.cpp">
+      <Filter>Source Files\GameObjects\components</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

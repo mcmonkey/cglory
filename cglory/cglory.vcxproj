@@ -183,6 +183,11 @@
     <ClInclude Include="..\..\cglory\cglory\SpriteHelper.h" />
     <ClInclude Include="..\..\cglory\cglory\TitleMenu.h" />
     <ClInclude Include="..\..\cglory\cglory\WinScreen.h" />
+    <ClInclude Include="GameObjectComponent.h" />
+    <ClInclude Include="IGameObject.h" />
+    <ClInclude Include="IGameObjectComponent.h" />
+    <ClInclude Include="IPositionComponent.h" />
+    <ClInclude Include="IProductionComponent.h" />
     <ClInclude Include="UnitProductionMenu.h" />
     <ClInclude Include="..\..\cglory\cglory\SelectionCursor.h" />
     <ClInclude Include="..\..\cglory\cglory\Sound.h" />
@@ -253,6 +258,7 @@
     <ClCompile Include="..\..\cglory\cglory\SpriteHelper.cpp" />
     <ClCompile Include="..\..\cglory\cglory\TitleMenu.cpp" />
     <ClCompile Include="..\..\cglory\cglory\WinScreen.cpp" />
+    <ClCompile Include="GameObjectComponent.cpp" />
     <ClCompile Include="UnitProductionMenu.cpp" />
     <ClCompile Include="..\..\cglory\cglory\SelectionCursor.cpp" />
     <ClCompile Include="..\..\cglory\cglory\Sound.cpp" />
@@ -286,4 +292,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="cglory.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
