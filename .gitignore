@@ -1,0 +1,15 @@
+*.suo
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.sdf
+
+/*.suo
+/*.sdf
+
+Debug/*
+Release/*
+bin/
+bin-debug/
