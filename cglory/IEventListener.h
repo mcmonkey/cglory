@@ -1,8 +1,8 @@
 #pragma once
-template<T>
+template<class T>
 class IEventListener
 {
 public:
-	virtual void onEvent(T &) = 0;
+	virtual void onEvent(T &,  IEventDispatcher<IEventListener<T>> & source) = 0;
 };
 

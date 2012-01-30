@@ -183,6 +183,7 @@
     <ClInclude Include="..\..\cglory\cglory\SpriteHelper.h" />
     <ClInclude Include="..\..\cglory\cglory\TitleMenu.h" />
     <ClInclude Include="..\..\cglory\cglory\WinScreen.h" />
+    <ClInclude Include="CGloryLogging.h" />
     <ClInclude Include="ComponentFactory.h" />
     <ClInclude Include="EventDispatcher.h" />
     <ClInclude Include="GameObjectComponent.h" />

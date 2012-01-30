@@ -1,6 +1,9 @@
 #pragma once
 
 #define LOGGING
+#define L_SECTION_EVENTS 0
+
+#define L_SECTION_API_MAX 255
 
 #ifdef LOGGING
 	#define LOG(s, m) log(s, m)

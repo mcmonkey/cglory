@@ -1,5 +1,5 @@
 #pragma once
-template<class T, class K>
+template<class T>
 class IEventDispatcher
 {
 public:
