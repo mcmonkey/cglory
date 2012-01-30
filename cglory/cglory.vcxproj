@@ -59,7 +59,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level1</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StructMemberAlignment>4Bytes</StructMemberAlignment>
@@ -183,11 +183,21 @@
     <ClInclude Include="..\..\cglory\cglory\SpriteHelper.h" />
     <ClInclude Include="..\..\cglory\cglory\TitleMenu.h" />
     <ClInclude Include="..\..\cglory\cglory\WinScreen.h" />
+    <ClInclude Include="ComponentFactory.h" />
+    <ClInclude Include="EventDispatcher.h" />
     <ClInclude Include="GameObjectComponent.h" />
+    <ClInclude Include="ICGloryComponent.h" />
+    <ClInclude Include="IEventDispatcher.h" />
+    <ClInclude Include="IEventListener.h" />
     <ClInclude Include="IGameObject.h" />
     <ClInclude Include="IGameObjectComponent.h" />
     <ClInclude Include="IPositionComponent.h" />
     <ClInclude Include="IProductionComponent.h" />
+    <ClInclude Include="ISequence.h" />
+    <ClInclude Include="ISequenceFinishListener.h" />
+    <ClInclude Include="Logging.h" />
+    <ClInclude Include="MoveComponent.h" />
+    <ClInclude Include="ProductionComponent.h" />
     <ClInclude Include="UnitProductionMenu.h" />
     <ClInclude Include="..\..\cglory\cglory\SelectionCursor.h" />
     <ClInclude Include="..\..\cglory\cglory\Sound.h" />
@@ -258,7 +268,10 @@
     <ClCompile Include="..\..\cglory\cglory\SpriteHelper.cpp" />
     <ClCompile Include="..\..\cglory\cglory\TitleMenu.cpp" />
     <ClCompile Include="..\..\cglory\cglory\WinScreen.cpp" />
+    <ClCompile Include="ComponentFactory.cpp" />
     <ClCompile Include="GameObjectComponent.cpp" />
+    <ClCompile Include="MoveComponent.cpp" />
+    <ClCompile Include="ProductionComponent.cpp" />
     <ClCompile Include="UnitProductionMenu.cpp" />
     <ClCompile Include="..\..\cglory\cglory\SelectionCursor.cpp" />
     <ClCompile Include="..\..\cglory\cglory\Sound.cpp" />

@@ -10,5 +10,7 @@ public:
 	virtual void setCell(Cell*) = 0;
 
 	virtual bool tryGetCell(Cell**) = 0;
+
+	virtual int getLayer() = 0;
 };
 

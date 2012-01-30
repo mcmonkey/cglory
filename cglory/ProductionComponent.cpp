@@ -1,15 +1,39 @@
 #include "StdAfx.h"
 #include "ProductionComponent.h"
 
-using cglory::game;
+using namespace cglory::game;
 
-ProductionComponent::ProductionComponent(void)
-	: GameObjectComponent<1>(
+
+bool ProductionComponent::canProduceAt(int id, int x, int y)
 {
-
+	return false;
 }
 
-
-ProductionComponent::~ProductionComponent(void)
+bool ProductionComponent::canProduceAt(int id, IGameObject &)
 {
+	return false;
+}
+
+bool ProductionComponent::canProduceAtThis(int id)
+{
+	return false;
+}
+
+bool ProductionComponent::produceAt(int id, int x, int y)
+{
+	return false;
+}
+bool ProductionComponent::produceAt(int id, IGameObject &)
+{
+	return false;
+}
+
+bool ProductionComponent::produceAtThis(int id)
+{
+	return false;
+}
+
+std::vector<int>* ProductionComponent::getAvailableProduction()
+{
+	return NULL;
 }

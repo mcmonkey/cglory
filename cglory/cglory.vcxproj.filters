@@ -106,6 +106,15 @@
     <Filter Include="Header Files\GameObjects\components">
       <UniqueIdentifier>{19060af2-6b98-4e46-919d-0776a92da6fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{74cdf75a-62ae-4d48-a054-20df60025b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events\implementations">
+      <UniqueIdentifier>{8dacaed3-acc5-4af9-83d1-5e79cba4fc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events\implementations\sequence">
+      <UniqueIdentifier>{8aa98d49-0824-4054-9433-b6ac09f3bf3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="basicEffect.fx">
@@ -485,6 +494,36 @@
     <ClInclude Include="GameObjectComponent.h">
       <Filter>Header Files\GameObjects\components</Filter>
     </ClInclude>
+    <ClInclude Include="ProductionComponent.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentFactory.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveComponent.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>Header Files\Overclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventDispatcher.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventListener.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ISequenceFinishListener.h">
+      <Filter>Header Files\Events\implementations\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="ISequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICGloryComponent.h">
+      <Filter>Header Files\GameObjects\components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -677,6 +716,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GameObjectComponent.cpp">
+      <Filter>Source Files\GameObjects\components</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionComponent.cpp">
+      <Filter>Source Files\GameObjects\components</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentFactory.cpp">
+      <Filter>Source Files\GameObjects\components</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveComponent.cpp">
       <Filter>Source Files\GameObjects\components</Filter>
     </ClCompile>
   </ItemGroup>
