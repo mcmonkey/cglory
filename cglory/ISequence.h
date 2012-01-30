@@ -3,7 +3,7 @@
 #include "IEventDispatcher.h"
 
 class ISequence :
-	public IEventDispatcher<ISequenceFinishListener, ISequence>
+	public IEventDispatcher<ISequenceFinishListener>
 {
 public:
 	virtual void start() = 0;

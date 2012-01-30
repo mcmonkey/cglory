@@ -3,9 +3,9 @@
 #include "ISequence.h"
 
 class ISequenceFinishListener :
-	public IEventlistener<ISequence>
+	public IEventListener<ISequence>
 {
 public:
-	virtual void onEvent(int*) = 0;
+	virtual void onEvent(ISequence*, IEventDispatcher<ISequenceFinishListener>) = 0;
 };
 
