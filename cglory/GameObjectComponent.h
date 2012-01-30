@@ -7,10 +7,10 @@ namespace cglory
 	{
 		class GameObjectComponent : public IGameObject
 		{
-		private:
+		protected:
 			IGameObject* m_gameObject;
 		public:
-			GameObjectComponent(IGameObject& inObject) :m_gameObject(&inObject){};
+			GameObjectComponent(IGameObject& inObject): m_gameObject(&inObject){};
 			~GameObjectComponent();
 			void* getComponent(int id);
 		};
