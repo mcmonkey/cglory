@@ -127,6 +127,7 @@
     <None Include="bgTile.bmp" />
     <None Include="bitmap1.bmp" />
     <None Include="bitmap2.bmp" />
+    <None Include="ComponentIds.txt" />
     <None Include="consolebg.png" />
     <None Include="Controls.txt" />
     <None Include="cursor.cur" />
@@ -191,7 +192,7 @@
     <ClInclude Include="IEventDispatcher.h" />
     <ClInclude Include="IEventListener.h" />
     <ClInclude Include="IGameObject.h" />
-    <ClInclude Include="IGameObjectComponent.h" />
+    <ClInclude Include="IComponent.h" />
     <ClInclude Include="IPositionComponent.h" />
     <ClInclude Include="IProductionComponent.h" />
     <ClInclude Include="ISequence.h" />

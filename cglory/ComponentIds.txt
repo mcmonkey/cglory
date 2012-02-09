@@ -1,0 +1,3 @@
+
+IPositionComponent 1
+IMoveComponent 1

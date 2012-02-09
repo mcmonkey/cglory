@@ -24,3 +24,5 @@ bool GameObject::addComponent(int id, void* component)
 	return true;
 }
 
+
+

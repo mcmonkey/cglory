@@ -18,8 +18,8 @@ namespace cglory
 			~GameObject(void);
 
 		protected:
-			virtual bool	addComponent(int id, void* component);
 			virtual void*	getComponent(int id);
+			virtual bool	addComponent(int id, void* component);
 			virtual bool	removeComponent(int id);
 		};
 

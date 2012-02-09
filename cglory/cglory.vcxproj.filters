@@ -252,6 +252,9 @@
     <None Include="..\..\cglory\cglory\loopy.xml">
       <Filter>Resource Files\Maps</Filter>
     </None>
+    <None Include="ComponentIds.txt">
+      <Filter>TextFiles</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -482,9 +485,6 @@
     <ClInclude Include="IProductionComponent.h">
       <Filter>Header Files\GameObjects\components</Filter>
     </ClInclude>
-    <ClInclude Include="IGameObjectComponent.h">
-      <Filter>Header Files\GameObjects\components</Filter>
-    </ClInclude>
     <ClInclude Include="IPositionComponent.h">
       <Filter>Header Files\GameObjects\components</Filter>
     </ClInclude>
@@ -526,6 +526,9 @@
     </ClInclude>
     <ClInclude Include="CGloryLogging.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Header Files\GameObjects\components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
