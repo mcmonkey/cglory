@@ -1,24 +1,23 @@
 #pragma once
 
 
-class IUnkown
+class IUnknown
 {
 
 public:
 	template<class T>
 	bool findComponent(T** outComponent) 
 	{
-		return findComponent(T::com_id, outComponent);
+		return queryInterface(T::interfaceId, outComponent);
 	}
-	virtual bool findComponent(int id, void** outcomponent);
+	virtual bool queryInterface(int id, void** outcomponent);
 };
 
 
 template<int ID>
-class IUnkownTemplate :
-	public IComponent
+class IUnknownTemplate :
+	public IUnknown
 {
 public:
-	static int const com_id = ID;
-
+	static int const intefraceId = ID;
 };

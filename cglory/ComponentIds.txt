@@ -1,3 +1,7 @@
-
+#Component
 IPositionComponent 1
 IMoveComponent 1
+
+#IUnkown
+IGameObject 1
+IGameComponent 2

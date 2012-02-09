@@ -1,11 +1,13 @@
 #pragma once
+#include "IUnknown.h"
 
 namespace cglory 
 {
 	namespace game 
 	{
 		// Note, the components in this class are not quite the same as the normal IComponent.
-		class IGameObject
+		class IGameObject :
+			public IUnknownTemplate<1>
 		{
 		public:
 			template<class T>
