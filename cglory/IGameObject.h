@@ -1,27 +1,34 @@
 #pragma once
-#include <vector>
-
+#include "IGameObjectComponent.h"
 namespace cglory 
 {
 	namespace game 
 	{
-		class IGameObject
+		class IGameObject :
+			public IGameObjectComponent<0>
 		{
 		public:
 			template<class T>
-			bool findComponent(T** outComponent) 
+			bool addComponent(T & component)
 			{
-				return (outComponent* = (T*)getComponent(T::id)) != null;	
+				return addComponent(T::id, (void*)&T);
 			}
 
 			template<class T>
-			inline T* addComponent()
+			bool replaceComponent(T & component)
 			{
-				return (T*)addComponent(T::id);
+				removeComponent();
+				return addCopmonent(component);
 			}
 
 			template<class T>
-			inline bool addAndFindComponent(T** outComponent)
+			bool removeComponent()
+			{
+				return removeComponent(t::id);
+			}
+
+			template<class T>
+			bool addAndFindComponent(T** outComponent)
 			{
 				if(addComponent(T::id))
 				{
@@ -29,10 +36,9 @@ namespace cglory
 				}
 				return NULL;
 			}
-
-			virtual void* getComponent(int id) = 0;
 		protected:
-			virtual bool addComponent(int id) = 0;
+			virtual bool addComponent(int id, void* component) = 0;
+			virtual bool removeComponent(int id) = 0;
 		};
 	}
 }

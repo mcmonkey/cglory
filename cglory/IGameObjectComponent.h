@@ -5,16 +5,21 @@ namespace cglory
 {
 	namespace game 
 	{
-		template<int ID, class DATA_LOADER, class DATA_SAVER>
-		class IGameObjectComponent :
-			public IGameObject
+		template<int ID>
+		class IGameObjectComponent
 		{
 		public:
 			static int const id = ID;
+			
+			template<class T>
+			bool findComponent(T** outComponent) 
+			{
+				return (outComponent* = (T*)getComponent(T::id)) != null;	
+			}
+			
+		protected:
+			virtual void* getComponent(int id) = 0;
 
-			virtual void load(DATA_LOADER &) = 0;
-			virtual void loadState(DATA_LOADER &) = 0;
-			virtual void saveState(DATA_SAVER &) = 0;
 		};
 	}
 }
